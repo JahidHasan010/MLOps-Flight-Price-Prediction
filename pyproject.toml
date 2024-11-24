@@ -1,0 +1,11 @@
+[project]
+name = "flight_price"
+version = "0.0.1"
+description = "MLOps Flight Price Prediction Project for Productionizing Models"
+authors = [{name = "Jahid Hasan", email = "jahidjahid36452@gmail.com"}]
+
+[tool.setuptools]
+packages = {find = {}}
+
+[tool.setuptools.dynamic]
+dependencies = {file = "requirements.txt"}

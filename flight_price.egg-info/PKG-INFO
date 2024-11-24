@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: flight_price
+Version: 0.0.1
+Summary: MLOps Flight Price Prediction Project for Productionizing Models
+Author: Jahid Hasan
+Author-email: Jahid Hasan <jahidjahid36452@gmail.com>
+License-File: LICENSE
