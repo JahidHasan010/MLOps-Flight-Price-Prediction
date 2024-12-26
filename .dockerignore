@@ -1,29 +1,38 @@
-# .dockerignore
+# Include any files or directories that you don't want to be copied to your
+# container here (e.g., local build artifacts, temporary files, etc.).
+#
+# For more help, visit the .dockerignore file reference guide at
+# https://docs.docker.com/go/build-context-dockerignore/
 
-# Virtual environments
-venv
+**/.DS_Store
+**/__pycache__
+**/.venv
+**/.classpath
+**/.dockerignore
+**/.env
+**/.git
+**/.gitignore
+**/.project
+**/.settings
+**/.toolstarget
+**/.vs
+**/.vscode
+**/*.*proj.user
+**/*.dbmdl
+**/*.jfm
+**/bin
+**/charts
+**/docker-compose*
+**/compose.y*ml
+**/Dockerfile*
+**/node_modules
+**/npm-debug.log
+**/obj
+**/secrets.dev.yaml
+**/values.dev.yaml
+LICENSE
+README.md
 
-# MLflow experiment tracking directory
 mlruns
-
-# Git repository
-.git
-
-# Python cache files
-__pycache__
-*.pyc
-*.pyo
-*.pyd
-.Python
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Build artifacts
-build
-dist
-*.egg-info
-
-# Jupyter Notebook checkpoints
-*.ipynb_checkpoints
+mlartifacts
+flight

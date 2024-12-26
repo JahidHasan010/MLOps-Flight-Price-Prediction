@@ -14,7 +14,7 @@ st.set_page_config(
 st.markdown("# 💰 Flight Price Prediction ✈️")
 
 # get the user input
-df=pd.read_csv('Data/Process/train.csv')
+df=pd.read_csv('data/process/train.csv')
 
 col1,col2,col3=st.columns(3)
 with col1:

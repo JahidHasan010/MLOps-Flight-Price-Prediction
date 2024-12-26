@@ -62,8 +62,8 @@
 #     return y_pred[0]
 
 import os
-import mlflow
-import mlflow.pyfunc
+# import mlflow
+# import mlflow.pyfunc
 import pickle as pkl
 import logging
 logging.basicConfig(level=logging.INFO)
