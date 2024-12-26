@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/0137c3d5d71a4e4db644584199cc74db/artifacts
+end_time: 1735221756926
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0137c3d5d71a4e4db644584199cc74db
+run_name: melodic-penguin-1000
+run_uuid: 0137c3d5d71a4e4db644584199cc74db
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735221743606
+status: 3
+tags: []
+user_id: Surface

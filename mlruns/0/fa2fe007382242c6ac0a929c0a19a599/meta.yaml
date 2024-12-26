@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/fa2fe007382242c6ac0a929c0a19a599/artifacts
+end_time: 1735221543300
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fa2fe007382242c6ac0a929c0a19a599
+run_name: rebellious-crab-287
+run_uuid: fa2fe007382242c6ac0a929c0a19a599
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735221530740
+status: 3
+tags: []
+user_id: Surface

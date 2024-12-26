@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/27cfd7f129924b37af3e325804afb40a/artifacts
+end_time: 1735221583359
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 27cfd7f129924b37af3e325804afb40a
+run_name: resilient-owl-12
+run_uuid: 27cfd7f129924b37af3e325804afb40a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735221571599
+status: 3
+tags: []
+user_id: Surface

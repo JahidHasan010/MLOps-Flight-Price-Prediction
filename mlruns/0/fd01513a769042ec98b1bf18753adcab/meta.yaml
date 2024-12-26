@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/fd01513a769042ec98b1bf18753adcab/artifacts
+end_time: 1735221622296
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fd01513a769042ec98b1bf18753adcab
+run_name: victorious-snail-343
+run_uuid: fd01513a769042ec98b1bf18753adcab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735221609028
+status: 3
+tags: []
+user_id: Surface

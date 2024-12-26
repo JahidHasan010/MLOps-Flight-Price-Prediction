@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/de53946bdee04b35ae1dce519e4cacd3/artifacts
+end_time: 1735221743340
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: de53946bdee04b35ae1dce519e4cacd3
+run_name: fearless-vole-895
+run_uuid: de53946bdee04b35ae1dce519e4cacd3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735221730843
+status: 3
+tags: []
+user_id: Surface

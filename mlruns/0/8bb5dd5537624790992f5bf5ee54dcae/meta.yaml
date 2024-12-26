@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/8bb5dd5537624790992f5bf5ee54dcae/artifacts
+end_time: 1735221608769
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8bb5dd5537624790992f5bf5ee54dcae
+run_name: sincere-moth-989
+run_uuid: 8bb5dd5537624790992f5bf5ee54dcae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735221596461
+status: 3
+tags: []
+user_id: Surface

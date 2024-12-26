@@ -81,6 +81,11 @@ class Model_Training_Config:
             best_model = AdaBoostRegressor(**best_params)
         elif best_model_name == "DecessionTree":
             best_model = DecisionTreeRegressor(**best_params)
+
+        # # new add
+        # elif best_model_name == "XGBoost":
+        #     best_model = XGBRegressor(**best_params)
+
         else:
             best_model = LinearRegression()
 
@@ -194,14 +199,14 @@ class Model_Training_Config:
 #     save_file(obj=best_model, file_path= best_model_path)
 
 if __name__ == "__main__":
-    train_array = np.load("Data_transformation/train_array.npy")
-    test_array = np.load("Data_transformation/test_array.npy")
+    train_array = np.load("data/transformation/train_array.npy")
+    test_array = np.load("data/transformation/test_array.npy")
     
     trainer = Model_Training_Config(train_array=train_array, test_array=test_array)
     best_model, _ = trainer.train()
     
-    os.makedirs("Models", exist_ok=True)
-    best_model_path = os.path.join("Models", "best_model.pkl")
+    os.makedirs("models", exist_ok=True)
+    best_model_path = os.path.join("models", "best_model.pkl")
     save_file(obj=best_model, file_path=best_model_path)
 
 

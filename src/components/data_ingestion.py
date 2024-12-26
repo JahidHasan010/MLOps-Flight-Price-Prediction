@@ -18,7 +18,9 @@ def inisiate_data_ingestion():
     Then we will apply basic preprocessing like handling missing valeues removing duplicates and handling datatypes
     We can save the data we will get in the raw folder
     """
-    raw_data_path=os.path.join("Data/Raw","raw.csv")
+    # raw_data_path=os.path.join("Data/Raw","raw.csv")
+    raw_data_path = os.path.join("data/raw", "raw.csv")
+    os.makedirs(os.path.dirname(raw_data_path), exist_ok=True)
 
     logging.info("Getting the data")
     df=read_data("https://raw.githubusercontent.com/JahidHasan010/All-Dataset/refs/heads/main/flight_price%20(1).csv")
@@ -26,7 +28,7 @@ def inisiate_data_ingestion():
     logging.info("Apply data cleaning")
 
     df=clean_data(df=df)
-
+    
     logging.info("saving the raw data")
     df.to_csv(raw_data_path,index=False)
 

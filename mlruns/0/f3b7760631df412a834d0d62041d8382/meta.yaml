@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/f3b7760631df412a834d0d62041d8382/artifacts
+end_time: 1735221823517
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f3b7760631df412a834d0d62041d8382
+run_name: bald-mink-720
+run_uuid: f3b7760631df412a834d0d62041d8382
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735221811458
+status: 3
+tags: []
+user_id: Surface

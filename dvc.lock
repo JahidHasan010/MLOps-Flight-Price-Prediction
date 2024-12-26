@@ -1,0 +1,94 @@
+schema: '2.0'
+stages:
+  data_ingestion:
+    cmd: python src/components/data_ingestion.py
+    deps:
+    - path: src/components/data_ingestion.py
+      hash: md5
+      md5: 90e3f2261157582b47339a8a918eb741
+      size: 1203
+    - path: src/utils.py
+      hash: md5
+      md5: c1c2944a2f2bf21ed5e2e7e4c65ba950
+      size: 4744
+    outs:
+    - path: data/raw
+      hash: md5
+      md5: 9b53d30e41ebb1999ba2bfccfabffa32.dir
+      size: 1085619
+      nfiles: 1
+  feature_engineering:
+    cmd: python src/components/feature_engineering.py
+    deps:
+    - path: data/raw/raw.csv
+      hash: md5
+      md5: 6044ffa332d3f8ce433b0c03f29cdd29
+      size: 1085619
+    - path: src/components/feature_engineering.py
+      hash: md5
+      md5: 0f7af597ca00ac3ab623ba61a847e70c
+      size: 12964
+    - path: src/utils.py
+      hash: md5
+      md5: c1c2944a2f2bf21ed5e2e7e4c65ba950
+      size: 4744
+    outs:
+    - path: data/process
+      hash: md5
+      md5: aa6ca0bbfcbc8ad8223578bce9610d7c.dir
+      size: 668682
+      nfiles: 3
+  data_transformation:
+    cmd: python src/components/data_transformation.py
+    deps:
+    - path: data/process/test.csv
+      hash: md5
+      md5: 8c146a7b6abccb77d2baf06792c4112a
+      size: 66929
+    - path: data/process/train.csv
+      hash: md5
+      md5: daba499e4e3671d3a3eb096d253e526e
+      size: 267477
+    - path: src/components/data_transformation.py
+      hash: md5
+      md5: 12cc0b9318fe829486c80f6ca04e2041
+      size: 10892
+    - path: src/utils.py
+      hash: md5
+      md5: c1c2944a2f2bf21ed5e2e7e4c65ba950
+      size: 4744
+    outs:
+    - path: data/transformation
+      hash: md5
+      md5: d54c4645486178af32a528365dac7684.dir
+      size: 1267477
+      nfiles: 3
+  model_training:
+    cmd: python src/components/model_training.py
+    deps:
+    - path: data/transformation/processor.pkl
+      hash: md5
+      md5: 93372b6bf4ace637a32f80b858544a38
+      size: 3221
+    - path: data/transformation/test_array.npy
+      hash: md5
+      md5: 9c419cf7bf3c22a069afed527dc9301f
+      size: 252928
+    - path: data/transformation/train_array.npy
+      hash: md5
+      md5: 4dfd69683962455d1918009b239e03a5
+      size: 1011328
+    - path: src/components/model_training.py
+      hash: md5
+      md5: a0acf82994d8b782c9d7b8745509fea5
+      size: 9155
+    - path: src/utils.py
+      hash: md5
+      md5: c1c2944a2f2bf21ed5e2e7e4c65ba950
+      size: 4744
+    outs:
+    - path: models
+      hash: md5
+      md5: 1ae8532b5b3a14dbef7b53ecaac5b7dd.dir
+      size: 243726
+      nfiles: 1

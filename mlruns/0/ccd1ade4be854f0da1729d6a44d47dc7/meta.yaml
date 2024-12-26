@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/ccd1ade4be854f0da1729d6a44d47dc7/artifacts
+end_time: 1735172613155
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ccd1ade4be854f0da1729d6a44d47dc7
+run_name: LinearRegression
+run_uuid: ccd1ade4be854f0da1729d6a44d47dc7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735172601674
+status: 4
+tags: []
+user_id: Surface

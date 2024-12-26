@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/e59a2716c178497c8a464e5751c8eb02/artifacts
+end_time: 1735221796662
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e59a2716c178497c8a464e5751c8eb02
+run_name: capricious-midge-494
+run_uuid: e59a2716c178497c8a464e5751c8eb02
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735221783718
+status: 3
+tags: []
+user_id: Surface

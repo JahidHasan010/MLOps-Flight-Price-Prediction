@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/80fd2ab50b3341a8baf9d8f5e95bb449/artifacts
+end_time: 1735221783468
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 80fd2ab50b3341a8baf9d8f5e95bb449
+run_name: caring-tern-744
+run_uuid: 80fd2ab50b3341a8baf9d8f5e95bb449
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735221770108
+status: 3
+tags: []
+user_id: Surface

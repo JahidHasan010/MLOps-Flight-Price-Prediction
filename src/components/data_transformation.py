@@ -20,7 +20,7 @@ class data_transformation_config:
     def __init__(self,train_data_path,test_data_path):
         self.train_data_path=train_data_path
         self.test_data_path=test_data_path
-        self.processor_path=os.path.join("Data_transformation","processor.pkl")
+        self.processor_path=os.path.join("data/transformation","processor.pkl")
     
     def inisiate_data_transformation(self):
         logging.info("Reading the train and test data")
@@ -57,7 +57,7 @@ class data_transformation_config:
         logging.info("concatination done")
         
         # Ensure the output directories exist
-        os.makedirs("Data_transformation", exist_ok=True)
+        os.makedirs("Data/transformation", exist_ok=True)
 
         logging.info("save the processor")
         save_file(obj=processor,file_path=self.processor_path)
@@ -66,8 +66,8 @@ class data_transformation_config:
         # os.makedirs("Transformation", exist_ok=True)
 
         #   Optionally save the arrays
-        np.save("Data_transformation/train_array.npy", train_array)
-        np.save("Data_transformation/test_array.npy", test_array)
+        np.save("data/transformation/train_array.npy", train_array)
+        np.save("data/transformation/test_array.npy", test_array)
         logging.info("Train and test arrays saved successfully")
 
         return [
@@ -112,7 +112,7 @@ if __name__=="__main__":
     # dt=data_transformation_config(train_data_path=train_data_path,
     #                                 test_data_path=test_data_path)
     # train_array,test_array=dt.inisiate_data_transformation()
-    obj=data_transformation_config(train_data_path="Data/Process/train.csv",test_data_path="Data/Process/test.csv")
+    obj=data_transformation_config(train_data_path="data/process/train.csv",test_data_path="data/process/test.csv")
     obj.inisiate_data_transformation()
 
 # # python src/components/data_transformation.py

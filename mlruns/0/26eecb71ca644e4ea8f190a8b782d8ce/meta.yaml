@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/26eecb71ca644e4ea8f190a8b782d8ce/artifacts
+end_time: 1735221515053
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 26eecb71ca644e4ea8f190a8b782d8ce
+run_name: inquisitive-eel-473
+run_uuid: 26eecb71ca644e4ea8f190a8b782d8ce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735221500127
+status: 3
+tags: []
+user_id: Surface

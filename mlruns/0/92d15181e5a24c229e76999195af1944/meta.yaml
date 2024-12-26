@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/92d15181e5a24c229e76999195af1944/artifacts
+end_time: 1735221653103
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 92d15181e5a24c229e76999195af1944
+run_name: nosy-shrew-96
+run_uuid: 92d15181e5a24c229e76999195af1944
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735221639810
+status: 3
+tags: []
+user_id: Surface

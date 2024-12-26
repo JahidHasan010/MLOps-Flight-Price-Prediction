@@ -1,9 +1,13 @@
 flight
-mlruns/*
-Data/Raw/*
-Data/Process/*
-Data_transformation/*
-Models/*
+mlartifacts/
+mlruns/
+data/raw/
+data/process/
+data/transformation/
+
 
 
 src.egg-info
+
+
+

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/33dd25188c16413186cfac829c68f02e/artifacts
+end_time: 1735221719174
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 33dd25188c16413186cfac829c68f02e
+run_name: bemused-toad-210
+run_uuid: 33dd25188c16413186cfac829c68f02e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735221706501
+status: 3
+tags: []
+user_id: Surface

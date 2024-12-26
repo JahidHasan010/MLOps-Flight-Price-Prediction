@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/85a547363c0e4652aeced78ab0eda476/artifacts
+end_time: 1735221706250
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 85a547363c0e4652aeced78ab0eda476
+run_name: gentle-kite-285
+run_uuid: 85a547363c0e4652aeced78ab0eda476
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735221692718
+status: 3
+tags: []
+user_id: Surface

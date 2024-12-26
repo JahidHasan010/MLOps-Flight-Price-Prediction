@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/303983ac232447adb8a940d4954dbced/artifacts
+end_time: 1735221470925
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 303983ac232447adb8a940d4954dbced
+run_name: youthful-fly-601
+run_uuid: 303983ac232447adb8a940d4954dbced
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735221453329
+status: 3
+tags: []
+user_id: Surface

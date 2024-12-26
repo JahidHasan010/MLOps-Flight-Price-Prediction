@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/267154a00a144525b2dd7e140e81fd8d/artifacts
+end_time: 1735221217778
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 267154a00a144525b2dd7e140e81fd8d
+run_name: Bagging
+run_uuid: 267154a00a144525b2dd7e140e81fd8d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735221071460
+status: 3
+tags: []
+user_id: Surface

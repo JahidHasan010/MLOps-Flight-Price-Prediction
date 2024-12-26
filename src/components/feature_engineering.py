@@ -16,9 +16,12 @@ logging.basicConfig(level=logging.INFO)
 class Feature_engnering_config:
     def __init__(self,df):
         self.df=df
-        self.process_data_path=os.path.join('Data/Process',"clean.csv")
-        self.train_data_path=os.path.join('Data/Process',"train.csv")
-        self.test_data_path=os.path.join('Data/Process',"test.csv")
+        self.process_data_path=os.path.join('data/process',"clean.csv")
+        self.train_data_path=os.path.join('Data/process',"train.csv")
+        self.test_data_path=os.path.join('Data/process',"test.csv")
+
+        # Ensure the output directory exists
+        os.makedirs(os.path.dirname(self.process_data_path), exist_ok=True)
 
     # def initiate_feature_engineering(self):
     #     """
@@ -269,8 +272,9 @@ class Feature_engnering_config:
 if __name__ == "__main__":
     # Example usage
     # Load data (replace with actual path or DataFrame)
-    df = pd.read_csv("Data/Raw/raw.csv")  # Replace with your data path
+    df = pd.read_csv("data/raw/raw.csv")  # Replace with your data path
     fe = Feature_engnering_config(df=df)
     train_data_path, test_data_path = fe.initiate_feature_engineering()
 
-# python src/components/feature_engineering.py
+# # python src/components/feature_engineering.py
+

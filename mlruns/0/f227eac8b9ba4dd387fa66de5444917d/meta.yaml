@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/f227eac8b9ba4dd387fa66de5444917d/artifacts
+end_time: 1735220024916
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f227eac8b9ba4dd387fa66de5444917d
+run_name: Gradient_Boosting
+run_uuid: f227eac8b9ba4dd387fa66de5444917d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735219885005
+status: 3
+tags: []
+user_id: Surface

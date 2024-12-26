@@ -86,7 +86,7 @@ def load_model(model_name,model_version):
         # logging.info("Loading the model")
         # model_uri = f"models:/{model_name}/{model_version}"
         # model = mlflow.pyfunc.load_model(model_uri)
-        with open('Models/best_model.pkl',"rb")as f:
+        with open('models/best_model.pkl',"rb")as f:
             model=pkl.load(f)
         return model
         print("model successfully loaded")
@@ -101,7 +101,7 @@ def process_input(data):
     """
     try:
         logging.info("Loading the processor")
-        with open('Models/processor.pkl',"rb")as f:
+        with open('data/transformation/processor.pkl',"rb")as f:
             processor=pkl.load(f)
         data=processor.transform(data)
         return data

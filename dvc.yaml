@@ -1,48 +1,58 @@
 stages:
-  prepare_data:
+  data_ingestion:
     cmd: python src/components/data_ingestion.py
     deps:
       - src/components/data_ingestion.py
       - src/utils.py
     outs:
-      - Data/Raw
+      - data/raw
     
 
   
   feature_engineering:
-    cmd: python src/feature_engineering.py
+    cmd: python src/components/feature_engineering.py
     deps:
-    - src/feature_engineering.py
+    - src/components/feature_engineering.py
     - src/utils.py
-    - Data/Raw/raw.csv
+    - data/raw/raw.csv
     
     outs:
-    - Data/Process
+    - data/process
+
+  # feature_engineering:
+  #   cmd: python src/componenmts/feature_engineering.py
+  #   deps:
+  #     - src/components/feature_engineering.py
+  #     - Data/Raw/raw.csv
+  #   outs:
+  #     - Data/Process/clean.csv
+  #     - Data/Process/train.csv
+  #     - Data/Process/test.csv
         
 
 
   data_transformation:
-    cmd: python src/data_transformation.py
+    cmd: python src/components/data_transformation.py
     deps:
-    - src/data_transformation.py
+    - src/components/data_transformation.py
     - src/utils.py
-    - Data/Process/train.csv
-    - Data/Process/test.csv
+    - data/process/train.csv
+    - data/process/test.csv
     
     outs:
-    - Data_transformation
+    - data/transformation
         
 
 
   model_training:
-    cmd: python src/model_training.py
-    
+    cmd: python src/components/model_training.py
+
     deps:
-    - src/model_training.py
+    - src/components/model_training.py
     - src/utils.py
-    - Data_transformation/processor.pkl
-    - Data_transformation/train_array.npy
-    - Data_transformation/test_array.npy
+    - data/transformation/processor.pkl
+    - data/transformation/train_array.npy
+    - data/transformation/test_array.npy
 
     outs:
-    - Models
+    - models

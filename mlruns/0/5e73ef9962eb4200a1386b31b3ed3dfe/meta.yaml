@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/5e73ef9962eb4200a1386b31b3ed3dfe/artifacts
+end_time: 1735220337711
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5e73ef9962eb4200a1386b31b3ed3dfe
+run_name: xgboost
+run_uuid: 5e73ef9962eb4200a1386b31b3ed3dfe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735220321296
+status: 4
+tags: []
+user_id: Surface
