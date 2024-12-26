@@ -1,0 +1,9 @@
+flight
+mlruns/*
+Data/Raw/*
+Data/Process/*
+Data_transformation/*
+Models/*
+
+
+src.egg-info
