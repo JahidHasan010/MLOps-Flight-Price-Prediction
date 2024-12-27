@@ -11,8 +11,8 @@ The pipeline integrates various technologies like **AWS**, **Docker**, **DVC**, 
 - [**MLOps Flight Price Prediction Project**](#mlops-flight-price-prediction-project)
   - [**Table of Contents**](#table-of-contents)
   - [**Project Overview**](#project-overview)
-  - [**Architecture Overview**](#architecture-overview)
   - [**Technologies Used**](#technologies-used)
+  - [**Architecture Overview**](#architecture-overview)
   - [**Installation Guide**](#installation-guide)
     - [1. Clone the Repository](#1-clone-the-repository)
 
@@ -34,6 +34,19 @@ This project is designed to predict flight prices based on historical flight dat
 10. **CI/CD Pipeline**: Automate the workflow with GitHub Actions for testing, building, and deployment.
 
 The goal of this project is to showcase best practices in MLOps, including versioning of data and models, continuous deployment, and automated monitoring.
+
+---
+
+## **Technologies Used**
+
+- **Programming Languages**: Python
+- **Libraries**: Pandas, NumPy, Scikit-learn, XGBoost, MLflow, Hyperopt, FastAPI
+- **Cloud Services**: AWS (EC2, ECR, S3)
+- **Containerization**: Docker
+- **CI/CD**: GitHub Actions
+- **MLFLOW**: Expreriments Tracking
+- **Version Control**: DVC (for versioning datasets and models and Pipeline Tracking)
+- **Other Tools**: Streamlit (for web interface)
 
 ---
 
@@ -75,18 +88,6 @@ This project follows an **end-to-end MLOps architecture** consisting of the foll
 
 ---
 
-## **Technologies Used**
-
-- **Programming Languages**: Python
-- **Libraries**: Pandas, NumPy, Scikit-learn, XGBoost, MLflow, Hyperopt, FastAPI
-- **Cloud Services**: AWS (EC2, ECR, S3)
-- **Containerization**: Docker
-- **CI/CD**: GitHub Actions
-- **MLFLOW**: Expreriments Tracking
-- **Version Control**: DVC (for versioning datasets and models and Pipeline Tracking)
-- **Other Tools**: Streamlit (for web interface)
-
----
 
 ## **Installation Guide**
 
